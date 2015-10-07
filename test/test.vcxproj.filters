@@ -24,22 +24,13 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Langren.h">
+    <ClInclude Include="..\Langren\Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="appmain.h">
+    <ClInclude Include="..\Langren\Role.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cqp.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Game.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="util.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Role.h">
+    <ClInclude Include="..\Langren\util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -47,29 +38,20 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Langren.cpp">
+    <ClCompile Include="test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="dllmain.cpp">
+    <ClCompile Include="..\Langren\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="appmain.cpp">
+    <ClCompile Include="..\Langren\Role.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Util.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Role.cpp">
+    <ClCompile Include="..\Langren\Util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="CQP.lib" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="com.zhshr.Langren.json" />
+    <Library Include="..\Langren\CQP.lib" />
   </ItemGroup>
 </Project>
